@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FLIPKART_WEB_AUTOMATION">
+    <listeners>
+        <listener class-name="com.web.automation.genericUtilities.Listeners"/>
+    </listeners>
+    <test name="flipkart_Automation">
+        <classes>
+               <class name="com.web.automation.testcases.TestcasesClass"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
