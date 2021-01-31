@@ -58,7 +58,7 @@ public class TestcasesClass extends BaseClass{
         homepage.searchForTask(taskId);
         List<WebElement> tasksList = homepage.getSearchResult();
         int noOfTasks = tasksList.size();
-        Assert.assertEquals(noOfTasks,1,"Tasks search result mismatch");
+        Assert.assertEquals(noOfTasks,1,"Tasks search result mismatch error");
     }
 
 
